@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chess Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav
+      class="navbar-inverse"
+      style="position: sticky; top: 0; z-index: 99999"
+    >
+      <div class="navbar-header">
+        <button
+          type="button"
+          class="navbar-toggle"
+          data-toggle="collapse"
+          data-target="#myNavbar"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"> Chess Bot </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#intro">Introduction</a></li>
+          <li><a href="#chessbot">Chessbot</a></li>
+          <li><a href="#chess_players">Famous Chess Players</a></li>
+          <li><a href="#play_chess">Playable Chess Board</a></li>
+          <li><a href="#aboutme">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="page-header" id="intro">
+        <h2 class="text-capitalize itc">Introduction to Chess</h2>
+      </div>
+      <center>
+        <div class="intro_mainDiv">
+          <img class="img-responsive" src="chaturanga_played.jpg" />
+          <!--Introduction-->
+          <h4 class="text-capitalize">
+            <kbd>
+              Chaturanga [The oldest form of Chess], played in an Indian court
+            </kbd>
+          </h4>
+          <hr />
+          <h5 class="text-success text-left text-capitalize">
+            Chess is one of the oldest and most popular board games, played by
+            two opponents on a checkered board with specially designed pieces of
+            contrasting colours [white and black].
+          </h5>
+          <p class="text-muted text-left">
+            Chess first appeared in India about the 6th century AD and by the
+            10th century had spread from Asia to the Middle East and Europe.
+            Since at least the 15th century, chess has been known as the “royal
+            game” because of its popularity among the nobility. Rules and set
+            design slowly evolved until both reached today’s standard in the
+            early 19th century. Once an intellectual diversion favoured by the
+            upper classes, chess went through an explosive growth in interest
+            during the 20th century as professional and state-sponsored players
+            competed for an officially recognized world championship title and
+            increasingly lucrative tournament prizes. Organized chess
+            tournaments, postal correspondence games, and Internet chess now
+            attract men, women, and children around the world.
+          </p>
+        </div>
+      </center>
+      <br />
+      <br />
+      <div class="page-header" id="chessbot">
+        <h2 class="cb">Chessbot</h2>
+        <iframe
+          allow="microphone;"
+          width="350"
+          height="430"
+          src="https://console.dialogflow.com/api-client/demo/embedded/1bd7f714-e9c7-405a-a126-86f5f6523819"
+        >
+        </iframe>
+      </div>
+      <hr />
+
+      <a href="identify.html" target="_blank" class="btn btn-primary icp">
+        Identify the Chess Pieces
+      </a>
+
+      <hr />
+      <!--Starting Famous chess players section-->
+      <div class="page-header" id="chess_players">
+        <h1 class="fcp">Famous Chess Players</h1>
+      </div>
+      <!--Start of Magnus-->
+      <div
+        class="bg-primary movie_head"
+        data-toggle="collapse"
+        data-target="#magcar"
+      >
+        <span class="glyphicon glyphicon-king"></span>
+        Magnus Carlsen
+        <i class="fa fa-sort-desc"></i>
+      </div>
+      <div id="magcar" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+          <img src="magnus_carlsen.jpeg" class="img-responsive img-thumbnail" />
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+          <h5 class="text-success text-center">
+            Magnus Carlsen is a famous Chess player from Norway
+          </h5>
+          <p>
+            Magnus Carlsen, in full Sven Magnus Øen Carlsen, (born November 30,
+            1990, Tønsberg, Norway), Norwegian chess player who in 2013 at age
+            22 became the second youngest world chess champion.
+          </p>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
+      <!--End of Magnus-->
+
+      <!--Start of Anand-->
+      <div
+        class="bg-success movie_head"
+        data-toggle="collapse"
+        data-target="#visand"
+      >
+        <span class="glyphicon glyphicon-king"></span>
+        Viswanathan Anand
+        <i class="fa fa-sort-desc"></i>
+      </div>
+      <div id="visand" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+          <img
+            src="viswanathan_anand.jpeg"
+            class="img-responsive img-thumbnail"
+          />
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+          <h5 class="text-success text-center">
+            Viswanathan Anand is a famous Chess player from India
+          </h5>
+          <p>
+            Viswanathan Anand, (born December 11, 1969, Madras [now Chennai],
+            India), Indian chess master who won the Fédération Internationale
+            des Échecs (FIDE; international chess federation) world championship
+            in 2000, 2007, 2008, 2010, and 2012.
+          </p>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
+      <!--End of Anand-->
+      <!--Start of Hikaru-->
+      <div
+        class="bg-danger movie_head"
+        data-toggle="collapse"
+        data-target="#hikna"
+      >
+        <span class="glyphicon glyphicon-king"></span>
+        Hikaru Nakamura
+        <i class="fa fa-sort-desc"></i>
+      </div>
+      <div id="hikna" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+          <img
+            src="hikaru_nakamura.jpeg"
+            class="img-responsive img-thumbnail"
+          />
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+          <h5 class="text-success text-center">
+            Hikaru Nakamura is a famous Chess player from America
+          </h5>
+          <p>
+            Christopher Hikaru Nakamura (born December 9, 1987) is an American
+            chess grandmaster, Twitch streamer, YouTube content creator,
+            five-time U.S. Chess Champion, and the reigning World Fischer Random
+            Chess Champion. A chess prodigy, he earned his grandmaster title at
+            the age of 15, the youngest American at the time to do so. With a
+            peak rating of 2816, Nakamura is the tenth-highest rated player in
+            history. He has represented the United States at five Chess
+            Olympiads, securing a team gold medal and two team bronze medals. In
+            May 2014, when FIDE began publishing official rapid and blitz chess
+            ratings, Nakamura ranked No. 1 in the world on both lists; he has
+            consistently remained at or near the No. 1 rank ever since. As of
+            December 2022, he has won all of the last five Chess.com Speed Chess
+            Championships.
+          </p>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
+      <!--End of Hikaru-->
+      <!--Start of Garry-->
+      <div
+        class="bg-info movie_head"
+        data-toggle="collapse"
+        data-target="#gakas"
+      >
+        <span class="glyphicon glyphicon-king"></span>
+        Garry Kasparov
+        <i class="fa fa-sort-desc"></i>
+      </div>
+      <div id="gakas" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+          <img src="garry_kasparov.jpeg" class="img-responsive img-thumbnail" />
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+          <h5 class="text-success text-center">
+            Garry Kasparov is a famous Chess player from Russia(Azerbaijan
+            {U.S.S.R})
+          </h5>
+          <p>
+            Garry Kasparov, in full Garri Kimovich Kasparov, original name Garri
+            Weinstein or Harry Weinstein, (born April 13, 1963, Baku,
+            Azerbaijan, U.S.S.R. [now Baku, Azerbaijan]), Soviet-born chess
+            master who became the world chess champion in 1985. Kasparov was the
+            youngest world chess champion (at 22 years of age) and the first
+            world chess champion to be defeated by a supercomputer in a
+            competitive match. Kasparov was born to a Jewish father and an
+            Armenian mother. He began playing chess at age 6, by age 13 was the
+            Soviet youth champion, and won his first international tournament at
+            age 16 in 1979. Kasparov became an international grandmaster in
+            1980. From 1973 to 1978 he studied under former world champion
+            Mikhail Botvinnik.
+          </p>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
+      <!--End of Garry-->
+      <!--Start of Bobby-->
+      <div
+        class="bg-warning movie_head"
+        data-toggle="collapse"
+        data-target="#bofis"
+      >
+        <span class="glyphicon glyphicon-king"></span>
+        Bobby Fischer
+        <i class="fa fa-sort-desc"></i>
+      </div>
+      <div id="bofis" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+          <img src="bobby_fischer.jpeg" class="img-responsive img-thumbnail" />
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+          <h5 class="text-success text-center">
+            Bobby Fischer was a famous Chess player from America
+          </h5>
+          <p>
+            Bobby Fischer, byname of Robert James Fischer, (born March 9, 1943,
+            Chicago, Illinois, U.S.—died January 17, 2008, Reykjavík, Iceland),
+            American-born chess master who became the youngest grandmaster in
+            history when he received the title in 1958. His youthful
+            intemperance and brilliant playing drew the attention of the
+            American public to the game of chess, particularly when he won the
+            world championship in 1972. His precocious skills inspired the
+            Academy Award-nominated movie, Searching for Bobby Fischer (1993).
+          </p>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
+      <!--End of Bobby-->
+
+      <div
+        class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12"
+        id="environment"
+      >
+        <h2 class="text-capitalize fcgoat">Famous Chess Games of All Time</h2>
+      </div>
+      <ul class="list-group">
+        <li
+          class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li"
+        >
+          <h4>
+            The Match between Garry Kasparov and Anatoly Karpov [1-0] [Game 16]
+            {Respectively}
+          </h4>
+          <iframe
+            id="10645353"
+            allowtransparency="true"
+            frameborder="0"
+            style="width: 100%; border: none"
+            src="//www.chess.com/emboard?id=10645353"
+          ></iframe>
+          <script>
+            window.addEventListener('message', e => {
+              e['data'] &&
+                '10645353' === e['data']['id'] &&
+                document.getElementById(`${e['data']['id']}`) &&
+                (document.getElementById(
+                  `${e['data']['id']}`
+                ).style.height = `${e['data']['frameHeight'] + 30}px`)
+            })
+          </script>
+          <br />
+          <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+            The first 10 moves of game 16 were identical to those from game 12.
+            Karpov was the first to deviate, but Kasparov had analysed the
+            position deeply in his preparation before the match, and was able to
+            take the initiative, despite playing with the black pieces.
+            <br />
+            On move 16, he succeeds in planting a knight on d3, dominating
+            Karpov's position. Move by move, Kasparov gradually restricts his
+            great opponent, bringing him in the middlegame to virtual zugzwang,
+            quite an achievement with so many pieces on the board. On move 34,
+            to get rid of the terrible knight, Karpov is forced to give up his
+            queen for three minor pieces — not a terrible exchange in strictly
+            material terms, except that Black now played 37...Rc1, and after 38
+            Nb2 Qf2 39 Nd2 Rxd1+ 40 Nxd1 Re1+ Karpov resigned because of 41 Nf1
+            Rxf1 42 Bxf1 Qxf1 mate.
+          </p>
+        </li>
+        <li
+          class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li"
+        >
+          <br />
+          <br />
+          <h4>Vishwanathan Anand against Levon Aronian [1-0] {respectively}</h4>
+          <iframe
+            id="10626727"
+            allowtransparency="true"
+            frameborder="0"
+            style="width: 100%; border: none"
+            src="//www.chess.com/emboard?id=10626727"
+          ></iframe>
+          <script>
+            window.addEventListener('message', e => {
+              e['data'] &&
+                '10626727' === e['data']['id'] &&
+                document.getElementById(`${e['data']['id']}`) &&
+                (document.getElementById(
+                  `${e['data']['id']}`
+                ).style.height = `${e['data']['frameHeight'] + 30}px`)
+            })
+          </script>
+
+          <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+            Levon Aronian competes against the previous World Chess Champion,
+            Viswanathan Anand, in the 4th Round of the 75th Tata Steel Chess
+            Tournament (2013). The game is sure to not disappoint the
+            dynamic/tactical/aggressive chess player as the wild Meran Variation
+            of the Semi-Slav defense takes center stage. Many have already
+            described this brief 23 move encounter as "Anand's Immortal".
+          </p>
+        </li>
+      </ul>
+
+      <div
+        class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12"
+        id="play_chess"
+      >
+        <h2 class="text-captitalize pcb">Playable Chess Board</h2>
+      </div>
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h3>Chess Board by Fritz Chessbase</h3>
+        <h4>
+          <iframe
+            src="https://fritz.chessbase.com"
+            style="width: 800px; height: 480px"
+          ></iframe>
+        </h4>
+      </div>
+
+      <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h2 class="text-capitalize pcw">Popular Chess Websites</h2>
+      </div>
+      <div
+        class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chesscom"
+        data-toggle="modal"
+        data-target="#chesscomweb"
+      >
+        <img src="chess_web1_logo.png" class="img-responsive" />
+        <hr />
+        <p class="text-primary">Chess.com</p>
+      </div>
+      <div class="modal fade" id="chesscomweb">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+              <h4 class="modal-title">Chess.com</h4>
+            </div>
+            <div class="modal-body">
+              <p class="p_modal">
+                Chess.com's mission is to help people enjoy their lives through
+                the game of chess. As the #1 platform for online chess, we are
+                focused on growing the game by building great products, making
+                learning and improving easier, and delivering great chess
+                content and events to our fans.
+                <br />
+
+                <a href="https://www.chess.com/"> <b> Website Link</b></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End of Chess.com-->
+      <!--Start of Chess24-->
+      <div
+        class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chesscom"
+        data-toggle="modal"
+        data-target="#chess24web"
+      >
+        <img src="chess_web2_logo.png" class="img-responsive" />
+        <hr />
+        <p class="text-warning">Chess24</p>
+      </div>
+      <div class="modal fade" id="chess24web">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+              <h4 class="modal-title">Chess24</h4>
+            </div>
+            <div class="modal-body">
+              <p class="p_modal">
+                Chess24 was born in the Hamburg Chess Club when Grandmaster Jan
+                Gustafsson pitched the idea of a small chess video website to
+                Enrique Guzman, the co-founder of a successful education
+                company. Enrique, who credits chess with giving him the ability
+                to think in a structured and strategic manner, was happy to give
+                something back to the chess world, but on one condition - that
+                they would set about building the world's best all-around chess
+                website.
+                <br />
+                <br />
+                Chess24 launched in 2014 with offices in Hamburg and Gibraltar
+                and has grown into the best destination for watching top chess
+                tournaments and enjoying the highest quality chess content
+                online. Play Magnus, an Oslo-based company backed by World Chess
+                Champion Magnus Carlsen, also launched in 2014, and in March
+                2019 the two companies combined forces. Play Magnus brings
+                expertise in mobile apps and education along with the direct
+                involvement of arguably the greatest chess player of all time.
+                The goal remains to deliver the world’s best chess experience.
+                <br />
+
+                <a href="https://chess24.com/en"> <b>Website Link</b></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End of Chess24-->
+      <!--Start of Lichess-->
+      <div
+        class="col-lg-3 col-md-3 col-sm-3 col-xs-6 chesscom"
+        data-toggle="modal"
+        data-target="#lichessweb"
+      >
+        <img src="lichess-logo.jpg" class="img-responsive" />
+        <hr />
+        <p class="text-danger">Lichess</p>
+      </div>
+      <div class="modal fade" id="lichessweb">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+              <h4 class="modal-title">Lichess</h4>
+            </div>
+            <div class="modal-body">
+              <p class="p_modal">
+                In 2010, Thibault Duplessis began work on Lichess as a hobby
+                project. The site was simple at the beginning, not even checking
+                to see if moves were legal. He made the site open source, which
+                means anyone is free to read the source code and make
+                contributions. Gradually, the site improved and collected users
+                as an enthusiastic volunteer staff assembled to help Thibault
+                build and maintain the site. Today, Lichess users play more than
+                five million games every day.
+                <br />
+                <br />
+                Lichess is one of the most popular chess websites in the world
+                while remaining 100% free. Most “free” websites subsist by
+                selling ads or selling user data. Others do it by putting all
+                the good stuff behind paywalls. Lichess does none of these
+                things and never will. With no investors demanding profits,
+                Lichess staff can focus on improving the site as their only
+                goal.
+                <br />
+
+                <a href="https://www.lichess.org/"> <b> Website Link</b></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End of Lichess-->
+    </div>
+
+    <section id="aboutme">
+      <p class="text-muted text-center">
+        Location of World Chess Federation FIDE
+      </p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d708.737215897672!2d6.636691728518735!3d46.51652872106194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c2f3a4858c53d%3A0x572886ccef5e5fae!2sWorld%20Chess%20Federation%20FIDE!5e1!3m2!1sen!2sin!4v1685877469781!5m2!1sen!2sin"
+        width="1518"
+        height="450"
+        style="border: 0"
+        0
+        .0
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <hr style="width: 100%" />
+      <img
+        src=""
+        class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4"
+      />
+      <h3>Samit Nair</h3>
+      <div class="contact_1">
+        <a href="mailto:samit.s.nair@gmail.com?Subject=Hi">
+          <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5>
+        </a>
+
+        <a href="#">
+          <h5><i class="fa fa-phone"></i>&nbsp;&nbsp;+91 8928355302</h5>
+        </a>
+      </div>
+    </section>
+  </body>
+</html>
+
+<!--Bibliography-->
+<!--[
+    
+    Britannica {Text for introduction to Chess}
+    Wikpedia
+    Chess.com
+    
+
+    
+    ]
+-->
+
+<!-- 
+Things i want to add to the Website
+    Website to play chess (Embed Codes) : <iframe src="https://fritz.chessbase.com" style="width:760px;height:480px"></iframe>
+
+    Famous Chess players (a note on them) - Magnus Carlson(1), Vishwanathan Anand(2), Garry Kasparov(4), Hikaru Nakamura(3), Bobby Fischer(5)
+
+    Chessbot (Chatbot) : {
+<iframe
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/1bd7f714-e9c7-405a-a126-86f5f6523819">
+</iframe>
+}
+    Video of a famous chess game
+
+    Chess websites used commonly
+
+    Trivia on chess (origin, popularity {Essay}) 
+
+
+{Order of these ideas}
+
+1) Trivia / Introduction
+
+2) Chessbot
+
+3) Famous Chess Players + Famous Chess game 
+--------------
+4) Website to play chess
+
+5) Chess Websites used commonly
+-->
+
+<!-- 
+Famous Chess player Information:
+    Magnus Carlsen :
+        Magnus Carlsen, in full Sven Magnus Øen Carlsen, (born November 30, 1990, Tønsberg, Norway), Norwegian chess player who in 2013 at age 22 became the second youngest world chess champion.
+    Viswanathan Anand : 
+        Viswanathan Anand, (born December 11, 1969, Madras [now Chennai], India), Indian chess master who won the Fédération Internationale des Échecs (FIDE; international chess federation) world championship in 2000, 2007, 2008, 2010, and 2012.
+    Hikaru Nakamura : 
+        Christopher Hikaru Nakamura[2] (born December 9, 1987) is an American chess grandmaster, Twitch streamer, YouTube content creator, five-time U.S. Chess Champion, and the reigning World Fischer Random Chess Champion. A chess prodigy, he earned his grandmaster title at the age of 15, the youngest American at the time to do so. With a peak rating of 2816, Nakamura is the tenth-highest rated player in history. He has represented the United States at five Chess Olympiads, securing a team gold medal and two team bronze medals. In May 2014, when FIDE began publishing official rapid and blitz chess ratings, Nakamura ranked No. 1 in the world on both lists; he has consistently remained at or near the No. 1 rank ever since. As of December 2022, he has won all of the last five Chess.com Speed Chess Championships.
+    Garry Kasparov : 
+      Garry Kasparov, in full Garri Kimovich Kasparov, original name Garri Weinstein or Harry Weinstein, (born April 13, 1963, Baku, Azerbaijan, U.S.S.R. [now Baku, Azerbaijan]), Soviet-born chess master who became the world chess champion in 1985. Kasparov was the youngest world chess champion (at 22 years of age) and the first world chess champion to be defeated by a supercomputer in a competitive match. Kasparov was born to a Jewish father and an Armenian mother. He began playing chess at age 6, by age 13 was the Soviet youth champion, and won his first international tournament at age 16 in 1979. Kasparov became an international grandmaster in 1980. From 1973 to 1978 he studied under former world champion Mikhail Botvinnik.
+    Bobby Fischer : 
+      Bobby Fischer, byname of Robert James Fischer, (born March 9, 1943, Chicago, Illinois, U.S.—died January 17, 2008, Reykjavík, Iceland), American-born chess master who became the youngest grandmaster in history when he received the title in 1958. His youthful intemperance and brilliant playing drew the attention of the American public to the game of chess, particularly when he won the world championship in 1972. His precocious skills inspired the Academy Award-nominated movie, Searching for Bobby Fischer (1993).
+-->
